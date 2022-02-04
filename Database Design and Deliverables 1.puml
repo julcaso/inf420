@@ -1,0 +1,10 @@
+@startuml
+(*) -right-> "Requerimientos del negocio
+(análisis)"
+-right-> "Modelo de datos conceptual
+(análisis)"
+-right-> "Modelo de datos lógico
+(diseño)"
+-right-> "Modelo de datos físico
+(implementación)" 
+-right-> (*)

@@ -3,8 +3,10 @@
        - id : int
        - nombre : String
        - apellido : String
-       - direccion : String 
+       - direccion : String
+       - telefono : String
        - fechaNacimiento : datetime
+       - lugarNacimiento : String
        - estadoCivil : char 
        - fechaCreacion : datetime
        - fechaActualizacion : datetime

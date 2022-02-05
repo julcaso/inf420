@@ -1,14 +1,14 @@
 @startuml
-   class Persona{
-       - id : int
-       - nombre : String
-       - apellido : String
-       - direccion : String
-       - telefono : String
-       - fechaNacimiento : datetime
-       - lugarNacimiento : String
-       - estadoCivil : char 
-       - fechaCreacion : datetime
-       - fechaActualizacion : datetime
-   }
+class Persona{
+    - id : int
+    - nombre : String
+    - apellido : String
+    - direccion : String
+    - telefono : String
+    - fechaNacimiento : datetime
+    - lugarNacimiento : String
+    - estadoCivil : char 
+    - fechaCreacion : datetime
+    - fechaActualizacion : datetime
+    }
 @enduml

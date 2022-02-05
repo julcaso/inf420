@@ -1,0 +1,12 @@
+@startuml
+   class Persona{
+       - id : int
+       - nombre : String
+       - apellido : String
+       - direccion : String 
+       - fechaNacimiento : datetime
+       - estadoCivil : char 
+       - fechaCreacion : datetime
+       - fechaActualizacion : datetime
+   }
+@enduml

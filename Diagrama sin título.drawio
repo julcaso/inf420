@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2024-06-02T13:21:18.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="NTP-w50FfONOqku40jRm" version="20.6.2" type="github"><diagram id="t0Rg4dlf5KuY3SIXWEiS" name="Page-1">1VbbjpswEP0aHlsFO8mSx1zortpGrTarXh69eBZcGTtynIT06zusDQRoNtuoUtMX5DmeGc+cORgCOs+LW8PW2VJzkAEZ8CKgi4CQG0LxWQIHB9AockBqBHdQ2AAr8RM8OPDoVnDYtByt1tKKdRtMtFKQ2BbGjNH7ttuTlu1T1yyFHrBKmOyjXwW3mUMjctPgdyDSrDo5HE/cTs4qZ9/JJmNc748gGgd0brS2bpUXc5AldxUvLu7did26MAPKvibgxwf5vog/7h7uYBWmZPpluXp847PsmNz6hqfycZsj465me6iI2GfCwmrNktLe46wDOstsLtEKccmkSBWuE6wGDAI+MRgLxcmKw5oH1A/oHKw5oIsPoOOhC6m146ncN5MIBx7LjqYw9Bjzw0/r1A0/uPAU/QFdpEfXLSgw+iroCqu2PV0j8q/pon11GSs2ll0FX6PJtfEV9fjq8QQcrydvYp/CHu5BMiu0ipud2ZNW1t+lIWkzCYpPy3sRzfheK3jQS6aQgRmOxdhmK2eKf1JlMqO3ikNZ96CML4T9VuXC9fcSfzvy1qI4clscvOG6KEt/eVTYqd6aBM6/gVhrCvbcxdYf/bnR1qB5ZnXXLvh3A/dnfNYCW6m1RaKOtkYdzbhGfdTxrd1JNCQnRFolckz0Ej3rr278ckmG/S/E9WnyL+qL/h/6ouOOLCaX6quTaNhNdLG+0Gx+bpx784dI418=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2024-06-02T13:23:47.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mVvClfCPV_m0hG0u-ztY" version="20.6.2" type="github">
+  <diagram id="t0Rg4dlf5KuY3SIXWEiS" name="Page-1">
+    <mxGraphModel dx="868" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jKlJxELvTHeS1g2AVMSb-1" value="Albumes" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="364" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jKlJxELvTHeS1g2AVMSb-2" value="Generos" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="140" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jKlJxELvTHeS1g2AVMSb-3" value="Artistas" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="590" y="520" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jKlJxELvTHeS1g2AVMSb-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jKlJxELvTHeS1g2AVMSb-2" target="jKlJxELvTHeS1g2AVMSb-1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="550" as="sourcePoint" />
+            <mxPoint x="420" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jKlJxELvTHeS1g2AVMSb-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;" parent="1" source="jKlJxELvTHeS1g2AVMSb-3" target="jKlJxELvTHeS1g2AVMSb-1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="590" as="sourcePoint" />
+            <mxPoint x="460" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
